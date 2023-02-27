@@ -202,7 +202,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
 
 .promo {
   padding: 140px 0;
-  background: no-repeat 60% 70% url("/img/promo/Element.svg");
+  background: no-repeat 60% 70% url("./img/promo/Element.svg");
   background-color: #043873;
 }
 .promo .container .promo__wrap {
@@ -236,7 +236,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
 }
 
 .project-management {
-  background: no-repeat -15% 26% url("/img/project-management/BACKGROUNDPM2.svg");
+  background: no-repeat -15% 26% url("./img/project-management/BACKGROUNDPM2.svg");
 }
 .project-management .container .project-management__wrap {
   padding: 140px 0;
@@ -251,7 +251,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
   align-items: center;
 }
 .project-management .container .project-management__wrap .project-management__block .block_first-part .project-management__title {
-  background: no-repeat bottom left url("/img/project-management/yellowelement.svg");
+  background: no-repeat bottom left url("./img/project-management/yellowelement.svg");
   max-width: 672px;
   margin-bottom: 24px;
 }
@@ -280,7 +280,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
 }
 .project-management .container .project-management__wrap .project-management__block__second .block_first-part .project-management__title {
   display: inline-block;
-  background: no-repeat bottom right url("/img/txtborderyellow.svg");
+  background: no-repeat bottom right url("./img/txtborderyellow.svg");
   max-width: 672px;
   margin-bottom: 24px;
 }
@@ -305,7 +305,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
   flex-direction: column;
 }
 .use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__title {
-  background: no-repeat bottom right url("/img/use-as-extension/txtborderyellow.svg");
+  background: no-repeat bottom right url("./img/use-as-extension/txtborderyellow.svg");
   display: inline-block;
   max-width: 697px;
   color: #fff;
