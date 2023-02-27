@@ -305,7 +305,7 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
   flex-direction: column;
 }
 .use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__title {
-  background: no-repeat bottom right url("./img/use-as-extension/txtborderyellow.svg");
+  background: no-repeat bottom right url("../img/use-as-extension/txtborderyellow.svg");
   display: inline-block;
   max-width: 697px;
   color: #fff;
