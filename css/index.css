@@ -1,0 +1,359 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212529;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+}
+a:hover {
+  color: #FFE492;
+}
+
+button {
+  padding: 18px 40px;
+  background-color: #FFE492;
+  color: #043873;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #FFCB2E;
+  color: #212529;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(4, 56, 115, 0.9);
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+}
+
+#myLinks a {
+  font-size: 16px;
+  text-align: center;
+}
+
+#myLinks .myLinks-Login {
+  font-size: 16px;
+  text-align: center;
+  color: yellow;
+}
+
+#myLinks .myLinks-Try {
+  font-size: 16px;
+  text-align: center;
+  color: #00f1c5;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #043873;
+  color: white;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #043873;
+}
+header .container .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .nav .nav__links-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 64px;
+}
+header .container .nav .nav__links-button .nav__links-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .nav .nav__links-button .nav__links-wrap .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .nav .nav__links-button .nav__links-wrap .nav__list .nav__links {
+  display: block;
+}
+header .container .nav .nav__links-button .nav__links-wrap .nav__list .nav__links .nav__links-item {
+  display: block;
+  margin-left: 32px;
+}
+header .container .nav .nav__links-button .nav__buttons-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 24px;
+}
+header .container .nav .nav__links-button .nav__buttons-wrap .button-link {
+  display: block;
+}
+header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__button__accent {
+  background-color: #4F9CF9;
+  color: white;
+}
+header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__button__accent:hover {
+  background-color: #0878FF;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.topnav {
+  display: none;
+}
+
+.promo {
+  padding: 140px 0;
+  background: no-repeat 60% 70% url("/img/promo/Element.svg");
+  background-color: #043873;
+}
+.promo .container .promo__wrap {
+  display: flex;
+  align-items: center;
+}
+.promo .container .promo__wrap .promo__content {
+  max-width: 656px;
+}
+.promo .container .promo__wrap .promo__content h1 {
+  margin-bottom: 24px;
+}
+.promo .container .promo__wrap .promo__content p {
+  color: #fff;
+  margin-bottom: 60px;
+}
+.promo .container .promo__wrap .promo__content .button-link {
+  display: block;
+}
+.promo .container .promo__wrap .promo__content .button-link button {
+  background-color: #4F9CF9;
+  color: #fff;
+}
+.promo .container .promo__wrap .promo__content .button-link button i {
+  margin-left: 10px;
+}
+.promo .container .promo__wrap .promo__img {
+  width: 824px;
+  height: 549px;
+  background-color: #C4DEFD;
+}
+
+.project-management {
+  background: no-repeat -15% 26% url("/img/project-management/BACKGROUNDPM2.svg");
+}
+.project-management .container .project-management__wrap {
+  padding: 140px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 100px 0;
+}
+.project-management .container .project-management__wrap .project-management__block {
+  display: flex;
+  flex-direction: row;
+  gap: 0 60px;
+  align-items: center;
+}
+.project-management .container .project-management__wrap .project-management__block .block_first-part .project-management__title {
+  background: no-repeat bottom left url("/img/project-management/yellowelement.svg");
+  max-width: 672px;
+  margin-bottom: 24px;
+}
+.project-management .container .project-management__wrap .project-management__block .block_first-part .project-management__paragraph {
+  max-width: 672px;
+  margin-bottom: 60px;
+}
+.project-management .container .project-management__wrap .project-management__block .block_first-part .button-link {
+  display: block;
+}
+.project-management .container .project-management__wrap .project-management__block .block_first-part .button-link button {
+  background-color: #4F9CF9;
+  color: #fff;
+}
+.project-management .container .project-management__wrap .project-management__block .block_first-part .button-link button i {
+  margin-left: 10px;
+}
+.project-management .container .project-management__wrap .project-management__block .block_second-part {
+  width: 748px;
+  height: 547px;
+  background-color: #C4DEFD;
+}
+.project-management .container .project-management__wrap .project-management__block__second {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.project-management .container .project-management__wrap .project-management__block__second .block_first-part .project-management__title {
+  display: inline-block;
+  background: no-repeat bottom right url("/img/txtborderyellow.svg");
+  max-width: 672px;
+  margin-bottom: 24px;
+}
+.project-management .container .project-management__wrap .project-management__block__second .block-cover {
+  display: inline-block;
+  max-width: 50%;
+  height: auto;
+}
+
+.use-as-extension {
+  background-color: #043873;
+}
+.use-as-extension .container .use-as-extension__wrap {
+  padding: 140px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 100px;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block {
+  display: flex;
+  flex-direction: column;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__title {
+  background: no-repeat bottom right url("/img/use-as-extension/txtborderyellow.svg");
+  display: inline-block;
+  max-width: 697px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__paragraph {
+  max-width: 697px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__link-button {
+  display: block;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__link-button button {
+  background-color: #4F9CF9;
+  color: #fff;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__first_block .use-as-extension__link-button button i {
+  margin-left: 10px;
+}
+.use-as-extension .container .use-as-extension__wrap .use-as-extension__second-block {
+  width: 824px;
+  height: 549px;
+  background-color: #C4DEFD;
+}
+
+@media (max-width: 1200px) {
+  .nav__links-item {
+    font-size: 16px;
+  }
+  button {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .topnav {
+    display: block;
+  }
+  header {
+    display: none;
+  }
+}
+@media screen and (max-width 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

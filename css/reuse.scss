@@ -1,0 +1,211 @@
+//colors
+$yellow-accent: #FFE492;
+$blue-accent: #4F9CF9;
+$light-blue: #C4DEFD;
+$dark-blue: #043873;
+$white: #fff;
+$deep-black: #212529;
+//colors-end
+
+//Typography
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: $white;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+  color: $deep-black;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: $deep-black;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: $deep-black;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: $deep-black;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: $deep-black;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+
+  &:hover {
+    color: $yellow-accent;
+  }
+}
+
+%description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: $deep-black;
+
+}
+
+//Typography-end
+
+
+//Buttons
+
+button {
+  padding: 18px 40px;
+  background-color: $yellow-accent;
+  color: $dark-blue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  border: none;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #FFCB2E;
+    color: $deep-black;
+    cursor: pointer;
+  }
+}
+
+%button-outline {
+  padding: 16px 40px;
+  background: none;
+  color: $deep-black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  border: 1px solid $yellow-accent;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: $yellow-accent;
+    color: $deep-black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+}
+
+//Buttons-end
+
+//Container
+
+.container{
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+//Container-end
+
+
+//burger
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(4, 56, 115, 0.9);
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+}
+
+#myLinks a{
+  font-size: 16px;
+  text-align: center;
+}
+
+#myLinks .myLinks-Login{
+  font-size: 16px;
+  text-align: center;
+  color: yellow;
+}
+
+#myLinks .myLinks-Try{
+  font-size: 16px;
+  text-align: center;
+  color: #00f1c5;
+}
+
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background: rgb(255,255,255,0.1);
+
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: $dark-blue;
+  color: white;
+}
+
+//burger-end
+
