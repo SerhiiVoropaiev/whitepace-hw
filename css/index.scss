@@ -512,6 +512,50 @@ header {
   }
 }
 
+.work-with-whitepace{
+  padding: 140px 0;
+  background: no-repeat 20% 20% url("../img/promo/Element.svg");
+  background-color: $dark-blue;
+  .container{
+    .work-with-whitepace__block-wrap{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .work-with-whitepace__content-wrap{
+      max-width: 50%;
+      .work-with-whitepace__title{
+        margin-bottom: 24px;
+        color: $white;
+      }
+      .work-with-whitepace__paragraph{
+        margin-bottom: 60px;
+        color: $white;
+      }
+      .work-with-whitepace__link-button{
+        display: block;
+        .work-with-whitepace__button{
+          background-color: $blue-accent;
+          color: $white;
+          i{
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .work-with-whitepace__img-wrap{
+        .work-with-whitepace__cover{
+          max-width: 582px;
+          height:auto;
+        }
+
+
+    }
+  }
+}
+
+
 
 @media (max-width: 1200px) {
   .nav__links-item {

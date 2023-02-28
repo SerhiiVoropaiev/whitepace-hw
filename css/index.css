@@ -567,6 +567,43 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
   display: block;
 }
 
+.work-with-whitepace {
+  padding: 140px 0;
+  background: no-repeat 20% 20% url("../img/promo/Element.svg");
+  background-color: #043873;
+}
+.work-with-whitepace .container .work-with-whitepace__block-wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap {
+  max-width: 50%;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap .work-with-whitepace__title {
+  margin-bottom: 24px;
+  color: #fff;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap .work-with-whitepace__paragraph {
+  margin-bottom: 60px;
+  color: #fff;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap .work-with-whitepace__link-button {
+  display: block;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap .work-with-whitepace__link-button .work-with-whitepace__button {
+  background-color: #4F9CF9;
+  color: #fff;
+}
+.work-with-whitepace .container .work-with-whitepace__content-wrap .work-with-whitepace__link-button .work-with-whitepace__button i {
+  margin-left: 10px;
+}
+.work-with-whitepace .container .work-with-whitepace__img-wrap .work-with-whitepace__cover {
+  max-width: 582px;
+  height: auto;
+}
+
 @media (max-width: 1200px) {
   .nav__links-item {
     font-size: 16px;
