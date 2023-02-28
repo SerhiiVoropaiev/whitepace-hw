@@ -67,6 +67,15 @@ a:hover {
   color: #FFE492;
 }
 
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__user-wrap .our-clients__user-name-position-wrap .description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #212529;
+}
+
 button {
   padding: 18px 40px;
   background-color: #FFE492;
@@ -602,6 +611,124 @@ header .container .nav .nav__links-button .nav__buttons-wrap .button-link .nav__
 .work-with-whitepace .container .work-with-whitepace__img-wrap .work-with-whitepace__cover {
   max-width: 582px;
   height: auto;
+}
+
+.our-clients {
+  padding: 140px;
+}
+.our-clients .container .our-clients__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-clients .container .our-clients__wrap .our-clients__title {
+  display: block;
+  background: no-repeat 100% 100% url("../img/use-as-extension/txtborderyellow.svg");
+  max-width: 768px;
+  color: #212529;
+  margin-bottom: 60px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 0 32px;
+  margin-bottom: 60px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards {
+  min-width: 30%;
+  padding: 60px 40px;
+  background: #FFFFFF;
+  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__card-img {
+  margin-bottom: 32px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__card-paragraph {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #212529;
+  margin-bottom: 60px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__user-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 0 42px;
+  align-items: center;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__user-wrap .our-clients__user-name-position-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .our-clients__cards .our-clients__user-wrap .our-clients__user-name-position-wrap .user-name {
+  margin-bottom: 15px;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .dark {
+  background-color: #4F9CF9;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .dark h3 {
+  color: #043873;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .dark p {
+  color: #fff;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .dark .our-clients__card-paragraph {
+  border-bottom: 1px solid #fff;
+}
+.our-clients .container .our-clients__wrap .cards-wrap .dark .our-clients__user-wrap .our-clients__user-name-position-wrap .description {
+  color: white;
+}
+.our-clients .container .our-clients__wrap .our-clients__pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 0 12px;
+}
+.our-clients .container .our-clients__wrap .our-clients__pagination .our-clients__paginatio__item {
+  display: block;
+}
+
+footer {
+  background-color: #043873;
+  padding: 140px 0 32px 0;
+}
+footer .container .footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container .footer-wrap .footer__title {
+  color: #fff;
+  max-width: 608px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+footer .container .footer-wrap .footer__paragraph {
+  max-width: 608px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+}
+footer .container .footer-wrap .footer__button-link {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+footer .container .footer-wrap .footer__button-link .footer__button {
+  background-color: #4F9CF9;
+  color: #fff;
+}
+footer .container .footer-wrap .footer__button-link .footer__button i {
+  margin-left: 10px;
+}
+footer .container .footer-wrap .footer__icon-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0 40px;
+}
+footer .container .footer-wrap .footer__icon-wrap .footer_logo {
+  display: block;
 }
 
 @media (max-width: 1200px) {
