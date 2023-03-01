@@ -96,7 +96,7 @@ a {
 
 button {
   padding: 18px 40px;
-  background-color: $yellow-accent;
+  background-color: $blue-accent;
   color: $dark-blue;
   font-style: normal;
   font-weight: 500;
@@ -140,6 +140,7 @@ button {
 //burger
 
 .topnav {
+  text-align: center;
   overflow: hidden;
   background-color: rgba(4, 56, 115, 0.9);
   position: relative;
@@ -151,6 +152,50 @@ button {
 }
 
 /* Style navigation menu links */
+.login {
+
+  padding: 16px 40px;
+  background-color: $yellow-accent;
+  color: $dark-blue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #FFCC30;
+    color: $deep-black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+}
+
+.try {
+  padding: 18px 40px;
+  background-color: $blue-accent;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  border: none;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #008AFF;
+    color: $white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+}
+
 .topnav a {
   color: white;
   padding: 24px 24px;
@@ -159,21 +204,21 @@ button {
   display: block;
 }
 
-#myLinks a{
+#myLinks a {
   font-size: 16px;
   text-align: center;
 }
 
-#myLinks .myLinks-Login{
+#myLinks .myLinks-Login {
+  font-size: 16px;
+  text-align: center;
+  color: lightblue;
+}
+
+#myLinks .myLinks-Try {
   font-size: 16px;
   text-align: center;
   color: yellow;
-}
-
-#myLinks .myLinks-Try{
-  font-size: 16px;
-  text-align: center;
-  color: #00f1c5;
 }
 
 
@@ -188,7 +233,7 @@ button {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background: rgb(255,255,255,0.1);
+  background: rgb(255, 255, 255, 0.1);
 
 }
 
@@ -202,7 +247,7 @@ button {
 
 //Container
 
-.container{
+.container {
   max-width: 1560px;
   margin: 0 auto;
   padding: 0 40px;
