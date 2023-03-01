@@ -208,6 +208,10 @@ button:hover {
 header {
   padding: 16px 0;
   background-color: #043873;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 header .container .nav {
   display: flex;
